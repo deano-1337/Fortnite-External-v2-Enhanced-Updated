@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Fortmeme.cpp" />
+    <ClCompile Include="render\ImGui\imgui.cpp">
+      <Filter>Render\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="render\ImGui\imgui_demo.cpp">
+      <Filter>Render\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="render\ImGui\imgui_draw.cpp">
+      <Filter>Render\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="render\ImGui\imgui_impl_dx11.cpp">
+      <Filter>Render\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="render\ImGui\imgui_impl_win32.cpp">
+      <Filter>Render\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="render\ImGui\imgui_tables.cpp">
+      <Filter>Render\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="render\ImGui\imgui_widgets.cpp">
+      <Filter>Render\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Cheat">
+      <UniqueIdentifier>{f2c70413-8f19-4815-8694-a8e8329adc2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{7e669273-16d7-46bd-8857-408dd8b9f39c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{87ea4ccf-ced1-4c3d-a68a-019d6fdd7d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\ImGui">
+      <UniqueIdentifier>{3bffe37d-c14f-4624-983d-c1dd2b2e4528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Driver">
+      <UniqueIdentifier>{39576766-f86b-4ac7-87ab-2b2bb7999d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Esp">
+      <UniqueIdentifier>{690c8184-296a-4188-b3e0-776bb441935e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\SDK">
+      <UniqueIdentifier>{d5fa63e8-277b-4e84-8d9b-94ce57e000d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util\util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\sdk\offsets.hpp">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\sdk\sdk.h">
+      <Filter>Cheat\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\esp\esp.h">
+      <Filter>Cheat\Esp</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\driver\driver.h">
+      <Filter>Cheat\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ImGui\imconfig.h">
+      <Filter>Render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ImGui\imgui.h">
+      <Filter>Render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ImGui\imgui_impl_dx11.h">
+      <Filter>Render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ImGui\imgui_impl_win32.h">
+      <Filter>Render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ImGui\imgui_internal.h">
+      <Filter>Render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ImGui\imstb_rectpack.h">
+      <Filter>Render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ImGui\imstb_textedit.h">
+      <Filter>Render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ImGui\imstb_truetype.h">
+      <Filter>Render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="util\settings.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
