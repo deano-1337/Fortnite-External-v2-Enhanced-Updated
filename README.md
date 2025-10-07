@@ -1,7 +1,8 @@
 # Fortnite-External-v2-Enhanced-Updated
 
+UPDATED TO LATEST PATCH
 
-Ultimate Fortnite External
+Deanos Base Fortnite External
 
 Updated to the latest game version!
 
